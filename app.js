@@ -9,25 +9,14 @@ let data = fs.readFileSync(archivo).toString();
 
  boletos = data.split(";");
 
-// console.log(typeof boletos);
-// console.log({boletos});
 
-let array  = boletos.map(boleto => {
-  for(i=0;i<6 ; i++)
+const tabla = boletos.map( (dato, i) => {
+    return dato
+});
   
-})
+ 
+// console.log({boletos});
+console.log({tabla});
 
 
 
-
-// let boletos = data.map(e => {
-//   return e.replace(/(\r\n|\n|\r)/gm, "");
-// })
-
-// boleto= data.split(';');
-
-// boletos = boleto.map(e => {
-//   return e.replace(/(\r\n|\n|\r)/gm, "");
-// }) 
-
-// console.log(boletos)
