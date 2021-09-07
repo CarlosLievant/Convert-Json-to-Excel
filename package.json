@@ -9,7 +9,10 @@
   "author": "CarlosAlva",
   "license": "ISC",
   "dependencies": {
-    "export-to-csv": "^0.2.1",
-    "json2csv": "^5.0.6"
+    "export-to-csv": "^0.2.1"
+  },
+  "devDependencies": {
+    "json2csv": "^5.0.6",
+    "object-to-csv": "^1.0.5"
   }
 }
